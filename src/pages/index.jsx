@@ -31,7 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={`${styles.header} bg-bg1`}>
+      <div className={styles.header}>
         <nav className={styles.menu}>
           <Image alt="logo" src={duckLogo} width={100} height={100} />
           <div className={styles.options}>
